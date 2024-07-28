@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* 通用样式设置 */
+body {
+    font-family: "Times New Roman", serif; /* 设置字体为 Times New Roman */
+    background-color: black; /* 背景色为黑色 */
+    color: white; /* 文字颜色为白色 */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 视口高度 */
+}
+
+h1, p {
+    text-align: center; /* 标题和段落居中对齐 */
+}
+
+/* 实验阶段一：MTS 阶段 */
+.mts-example-word, .mts-choice-word {
+    font-size: 24px; /* 字体大小为24px（四号） */
+    color: white; /* 字体颜色为白色 */
+}
+
+.mts-example-word {
+    display: block;
+    margin: 20px 0; /* 示例词上下各有20px的间距 */
+}
+
+.mts-choice-words {
+    display: flex;
+    justify-content: space-between; /* 左右两个比较词分布在容器的两端 */
+    width: 100%; /* 宽度占满父容器 */
+    margin: 20px 0; /* 上下各有20px的间距 */
+}
+
+.mts-choice-word {
+    font-size: 24px; /* 字体大小为24px（四号） */
+    color: white; /* 字体颜色为白色 */
+}
+
+/* 实验阶段二：条件化阶段 */
+.conditioning-word {
+    font-size: 24px; /* 字体大小为24px（四号） */
+    color: white; /* 字体颜色为白色 */
+    margin: 20px 0; /* 上下各有20px的间距 */
+}
+
+/* 实验阶段三：泛化测试阶段 */
+.generalization-word {
+    font-size: 24px; /* 字体大小为24px（四号） */
+    color: white; /* 字体颜色为白色 */
+    margin: 20px 0; /* 上下各有20px的间距 */
+}
+
+/* 注视点样式 */
+.fixation-point {
+    font-size: 48px; /* 注视点字体大小为48px */
+    color: red; /* 注视点颜色为红色 */
+    text-align: center;
+    margin: 20px 0; /* 上下各有20px的间距 */
+}
+
